@@ -1,0 +1,88 @@
+/*
+	
+	== Visual
+	== Article navigation
+	.article-navigation --> .an-##
+
+*/
+.article-navigation {
+  background: #f5f5f5;
+}
+.article-navigation .inside {
+  max-width: none;
+}
+.an-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.an-item {
+  width: 50%;
+}
+.an-item-link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.an-item-content {
+  position: absolute;
+  bottom: 1em;
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: #FFF;
+  background: #000;
+  -webkit-transition: background .2s, margin .2s;
+  transition: background .2s, margin .2s;
+}
+.an-item-content .icon {
+  position: absolute;
+  top: .25em;
+  font-size: 5rem;
+  line-height: 1;
+}
+.an-item-link:focus .an-item-content,
+.an-item-link:hover .an-item-content {
+  background: #df0442;
+}
+.an-item-title {
+  display: inline-block;
+  vertical-align: middle;
+  height: 75px;
+  padding: 1.75em 1.5em;
+}
+.an-item-publication {
+  display: none;
+}
+.an-item-previous .an-item-illust {
+  float: right;
+}
+.an-item-previous .an-item-content {
+  left: 0;
+  right: 6em;
+  text-align: right;
+}
+.an-item-previous .an-item-content .icon {
+  right: 6em;
+}
+.an-item-previous a:focus .an-item-content,
+.an-item-previous a:hover .an-item-content {
+  margin-right: 5em;
+}
+.an-item-next .an-item-illust {
+  float: left;
+}
+.an-item-next .an-item-content {
+  right: 0;
+  left: 6em;
+}
+.an-item-next .an-item-content .icon {
+  left: 6em;
+}
+.an-item-next a:focus .an-item-content,
+.an-item-next a:hover .an-item-content {
+  margin-left: 5em;
+}
+
+/*# sourceMappingURL=maps/visual-article-nav.css.map */

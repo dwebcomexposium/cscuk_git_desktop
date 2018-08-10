@@ -1,0 +1,77 @@
+/*
+	
+	== Visual
+	== Tags cloud
+	.tags-cloud --> .tc-##
+
+	not-popular 
+	not-very-popular
+	popular
+	somewhat-popular
+	very-popular
+	ultra-popular
+
+*/
+.tags-cloud .block-title {
+  color: #333333;
+}
+.tc-list {
+  margin: 1em 0;
+}
+.tc-item {
+  position: relative;
+  display: inline-block;
+  min-height: 26px;
+  margin: .25em .25em .25em 0;
+  overflow: hidden;
+  vertical-align: middle;
+  background: #df0442;
+}
+.tc-item-link {
+  display: table-cell;
+  vertical-align: middle;
+  height: 26px;
+  padding: 0 1em 0 1.25em;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #FFF;
+  text-decoration: none;
+}
+.tc-item-link::before {
+  content: '•';
+  position: absolute;
+  bottom: -9px;
+  left: -10px;
+  height: 20px;
+  width: 23px;
+  font-size: 1.2rem;
+  text-align: center;
+  background: #000;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.tc-item-link:focus,
+.tc-item-link:hover {
+  color: #FFF;
+  background: #000;
+}
+.not-popular {
+  font-size: .8rem;
+}
+.not-very-popular {
+  font-size: 1rem;
+}
+.popular {
+  font-size: 1.1rem;
+}
+.somewhat-popular {
+  font-size: 1.3rem;
+}
+.very-popular {
+  font-size: 1.6rem;
+}
+.ultra-popular {
+  font-size: 1.8rem;
+}
+
+/*# sourceMappingURL=maps/visual-tags-cloud.css.map */

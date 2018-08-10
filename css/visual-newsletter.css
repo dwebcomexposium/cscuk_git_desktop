@@ -1,0 +1,139 @@
+/*
+
+	== Visual
+	== Newsletter
+	.newsletter-form --> .nf-##
+
+*/
+.nf-main-content {
+  margin-top: 3em;
+  text-align: center;
+}
+.nf-main-content [class^="box-"] {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-image: url(../img/visual/newsletter-illust.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.nf-main-content p {
+  font-size: 1.4rem;
+}
+.nf-title {
+  color: #FFF;
+}
+.nf-form-item label {
+  position: absolute !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+}
+.nf-form-input {
+  margin-top: 0;
+}
+.nf-form-txt {
+  width: 250px;
+  margin: 2em 0;
+}
+.nf-form-submit [class^="btn"] {
+  padding: 0.6em 1em;
+}
+.nf-form-submit [class^="btn"].with-icon {
+  padding-top: .45em;
+  padding-bottom: .25em;
+}
+.nf-form-submit [class^="btn"].with-icon .icon {
+  margin-bottom: 0;
+}
+.nf-form-submit [class^="btn"] .icon {
+  font-size: 2.2rem;
+  margin-left: -0.25em;
+  margin-bottom: -0.25em;
+}
+.nf-form-submit [class^="btn"] .icon-email {
+  display: none;
+}
+.nf-form-submit [class^="btn"] .icon-checkdisk {
+  float: none;
+  margin-right: .5em;
+  margin-bottom: 0;
+}
+/*
+ * Loading
+ */
+.nf-main-content.is-loading {
+  position: relative;
+}
+.nf-main-content.is-loading .nf-loading {
+  display: block;
+}
+.nf-loading {
+  display: none;
+  padding-top: 3em;
+}
+/*
+ * success/error
+ */
+.nf-main-content.with-results .icon,
+.nf-main-content.has-error .icon {
+  font-size: 5rem;
+}
+.nf-main-content .nf-success-msg.has-success .icon {
+  color: #49b056;
+}
+.nf-main-content .nf-success-msg.has-error .icon {
+  color: #df0442;
+}
+/*
+ * Block
+ */
+.block-small.newsletter-form {
+  width: 240px;
+}
+.block-small.newsletter-form.with-results .nf-title,
+.block-small.newsletter-form.has-error .nf-title {
+  margin-bottom: 0;
+}
+.block-small .nf-main-content {
+  margin-top: 0;
+  min-height: 290px;
+  padding: 1em;
+  text-align: left;
+  color: #FFF;
+  background-image: url(../img/visual/newsletter-illust.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 80%;
+}
+.block-small .nf-title {
+  margin-bottom: 0.5em;
+}
+.block-small .nf-subtitle {
+  margin-top: 0;
+}
+.block-small .nf-form-submit {
+  text-align: center;
+}
+.block-small .nf-form-txt {
+  margin: 1em 0;
+}
+.block-small .nf-loading {
+  top: 5em;
+  background-position: center -1.75em;
+  background-size: 80%;
+}
+.block-small .nf-loading-txt {
+  text-align: center;
+  padding: 1em;
+}
+.block-small .nf-success-msg {
+  text-align: center;
+}
+.block-small .nf-success-msg p {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=maps/visual-newsletter.css.map */

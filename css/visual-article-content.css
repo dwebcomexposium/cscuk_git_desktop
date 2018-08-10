@@ -1,0 +1,193 @@
+/*
+	
+	== Visual
+	== Article content
+	.article-content
+
+	Note: no BEM here, .article-content contains all wysiwyg elements (no CSS class)
+
+*/
+/* Intro */
+.article-intro {
+  margin: 2em 0 1em;
+}
+.article-content {
+  margin: 2em 0;
+  /* thematic break */
+  /*
+		figure (with titre & legend)
+	*/
+  /* Invert (other styler) */
+  /*
+		Content list
+		see common/typography.less
+	*/
+  /*
+	 * Blockquote
+	 */
+  /*
+	 * Table
+	 */
+  /* tags cloud */
+}
+.article-content hr {
+  margin: 3em -2em;
+  height: 5px;
+  border: 0;
+  background: #f5f5f5;
+}
+.article-content figure {
+  position: relative;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+.article-content figure.fl {
+  margin-right: 6em;
+}
+.article-content figure.fr {
+  margin-left: 6em;
+}
+.article-content figure small {
+  position: absolute;
+  right: 0;
+  bottom: -2em;
+  font-size: 1rem;
+}
+.article-content figure + * {
+  margin-top: 3em;
+}
+.article-content figcaption {
+  position: absolute;
+  left: 0;
+  bottom: -2em;
+  right: 6em;
+  padding: 1.25em 0.5em 0.5em;
+  font-size: 1.2rem;
+  background: #FFF;
+}
+.article-content figcaption strong {
+  display: block;
+  margin-bottom: .65em;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #000;
+}
+.article-content .invert small {
+  left: 0;
+  right: auto;
+}
+.article-content .invert figcaption {
+  right: 0;
+  left: 6em;
+  padding: 1.25em 1em 1em;
+  background: #000;
+  color: #FFF;
+  border-top: 5px solid #df0442;
+}
+.article-content .invert figcaption strong {
+  color: #FFF;
+}
+.article-content ul {
+  margin: 1em;
+}
+.article-content ul li {
+  list-style-type: none;
+  padding-left: 0;
+}
+.article-content ul li::before {
+  content: ' ';
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  margin-right: .75em;
+  margin-top: 0.75em;
+  margin-left: -1.15em;
+  vertical-align: top;
+}
+.article-content ul li::before {
+  background: #df0442;
+}
+.article-content ul > li:before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.article-content ul li li li:before {
+  border-radius: 50%;
+  height: 6px;
+  width: 6px;
+}
+.article-content ol {
+  margin: 1em;
+}
+.article-content ol ol {
+  list-style-type: lower-latin;
+}
+.article-content ol ol ol {
+  list-style-type: lower-roman;
+}
+.article-content blockquote {
+  position: relative;
+  padding: 3em 4em;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+.article-content blockquote h1,
+.article-content blockquote h2,
+.article-content blockquote h3,
+.article-content blockquote h4,
+.article-content blockquote h5,
+.article-content blockquote h6 {
+  color: #455a64;
+  font-size: 2.2rem;
+}
+.article-content blockquote small {
+  font-size: 1.2rem;
+}
+.article-content blockquote figure {
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+.article-content blockquote figure + * {
+  margin-top: 1em;
+}
+.article-content blockquote figure small {
+  font-size: .8rem;
+}
+.article-content table {
+  margin: 2em 0;
+  font-size: 1.4rem;
+}
+.article-content table th,
+.article-content table td {
+  padding: 1em 2em;
+}
+.article-content table th {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  background: #f5f5f5;
+  color: #455a64;
+  border: 1px solid #bfbfbf;
+}
+.article-content table td {
+  vertical-align: top;
+}
+.article-content table td + td {
+  border-left: 1px solid #bfbfbf;
+}
+.article-content table tbody {
+  border: 1px solid #bfbfbf;
+}
+.article-content table tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+.article-content .tags-cloud ul li:before {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .article-content hr {
+    margin: 3em 2em;
+  }
+}
+
+/*# sourceMappingURL=maps/visual-article-content.css.map */

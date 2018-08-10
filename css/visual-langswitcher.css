@@ -1,0 +1,38 @@
+/*
+
+	== Corporate
+	== Lang Switcher common styles
+	
+*/
+.lang-switcher {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+.ls-trigger {
+  padding: .65em 1.5em;
+  color: #FFF;
+  background: #333333;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1rem;
+}
+.ls-trigger::after {
+  top: 1px;
+  border-color: #FFF transparent transparent transparent;
+}
+.js .ls-lang-list {
+  margin: .2em 0 0;
+  padding-left: 0;
+  background: #333333;
+}
+.ls-lang-link {
+  padding: 0.5em 1.5em;
+  color: #FFF;
+}
+.ls-lang-link:focus,
+.ls-lang-link:hover {
+  color: #df0442;
+}
+.is-stuck .lang-switcher {
+  display: none;
+}
+
+/*# sourceMappingURL=maps/visual-langswitcher.css.map */

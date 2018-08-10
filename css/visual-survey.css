@@ -1,0 +1,171 @@
+/*
+
+	== Visual
+	== Survey
+	.survey-vote --> .sv-##
+
+*/
+.sv-main-content {
+  padding: 2em;
+  margin: 4em 0;
+  border: 10px solid #f5f5f5;
+  background: #fff url('../img/visual/survey-illust.png') no-repeat 98% top;
+}
+.sv-title {
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  font-size: 2rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #455a64;
+}
+.sv-title + p {
+  margin-top: 0;
+}
+.sv-title-total {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.5em 0 1em;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-transform: uppercase;
+  color: #df0442;
+  border: 2px solid #df0442;
+  border-radius: 3px;
+}
+.sv-content {
+  width: 50%;
+  margin: auto;
+}
+.sv-item {
+  padding: .65em 0;
+  color: #666666;
+  font-size: 1.4rem;
+}
+.sv-item label {
+  display: inline;
+  margin-top: 0;
+  margin-left: 1em;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.sv-item .radio-title {
+  padding-left: 2.5em;
+  line-height: 1.625;
+}
+.sv-item .radio-title::after {
+  margin-top: 3px;
+}
+.sv-item-button {
+  text-align: center;
+  margin-top: 1.5em;
+}
+.sv-item-input {
+  display: block;
+  margin-left: 2.5em;
+  width: 38%;
+}
+/*
+ * Block
+ */
+.block-small .survey-vote [class^="btn"] {
+  font-size: 1.6rem;
+}
+.block-small .sv-main-content {
+  width: 240px;
+  margin: 0;
+  padding: 1em;
+  background-image: none;
+}
+.block-small .sv-content {
+  width: auto;
+}
+.block-small .sv-title {
+  display: block;
+  text-align: left;
+  line-height: 1.45;
+}
+.block-small .sv-title .sv-title-total {
+  float: none;
+  font-size: 1.4rem;
+}
+.block-small .sv-item {
+  padding: .45em 0;
+}
+.block-small .sv-item-button {
+  text-align: left;
+}
+.block-small .sv-item-input {
+  width: auto;
+}
+.block-small .sv-result-color {
+  min-width: 22%;
+}
+/*
+ * Loading
+ */
+.sv-loading {
+  display: none;
+  z-index: 15;
+  padding-top: 5em;
+  background: #FFF;
+}
+.sv-loading .spinner {
+  margin: auto;
+}
+.sv-main-content.is-loading {
+  background-image: none;
+}
+.sv-main-content.is-loading .sv-content {
+  position: relative;
+}
+.sv-main-content.is-loading .sv-loading {
+  display: block;
+}
+.sv-loading-txt {
+  font-size: 1.8rem;
+  text-align: center;
+}
+/*
+ * Results
+ */
+.with-results .sv-title {
+  text-align: left;
+}
+.with-results .sv-content {
+  width: auto;
+  margin-top: 1em;
+}
+.sv-list-result .sv-item {
+  border-bottom: 0;
+}
+.sv-result {
+  position: relative;
+  display: block;
+  margin-top: 0.5em;
+  border: 2px solid #df0442;
+}
+.sv-result-color {
+  display: inline-block;
+  vertical-align: top;
+  min-height: 26px;
+  min-width: 4%;
+  background: #df0442;
+  -webkit-transition: width .8s;
+  transition: width .8s;
+}
+.sv-result-txt {
+  position: absolute;
+  left: .5em;
+  top: .15em;
+  vertical-align: top;
+  color: #FFF;
+}
+.toanimate .sv-result-color {
+  width: 0% !important;
+}
+
+/*# sourceMappingURL=maps/visual-survey.css.map */

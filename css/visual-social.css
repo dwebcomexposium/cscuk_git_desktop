@@ -1,0 +1,58 @@
+/*
+	
+	== Visual
+	== Social links
+	.social-links --> .sl-## 
+	==> social links (@sidebar, homepage...)
+
+	.social-sharing --> .ss-##
+	==> to share an article (@article)
+
+
+*/
+.social-sharing {
+  border-left: 2px solid #df0442;
+  padding: 1.35em 1em;
+}
+.social-sharing [class^="btn-"] {
+  border: 0;
+  padding: .25em;
+  color: #df0442;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+.social-sharing [class^="btn-"] .icon {
+  margin: 0;
+  float: none;
+  font-size: 2.4rem;
+}
+.social-sharing [class^="btn-"]:focus,
+.social-sharing [class^="btn-"]:hover {
+  color: #000;
+}
+.article-content .social-sharing ul {
+  margin: 0;
+}
+.article-content .social-sharing ul li:before {
+  display: none;
+}
+.ss-title {
+  display: inline-block;
+  margin-right: 1em;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-transform: uppercase;
+  color: #df0442;
+}
+.ss-list {
+  display: inline-block;
+}
+.ss-item {
+  display: inline-block;
+}
+.ss-item-txt {
+  display: none;
+}
+
+/*# sourceMappingURL=maps/visual-social.css.map */

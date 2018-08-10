@@ -1,0 +1,113 @@
+/*
+
+  == Visual
+  == Main Navigation
+
+ */
+.main-navigation {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 505;
+  text-align: left;
+  color: #FFF;
+  -webkit-transform: translateX(-325px);
+          transform: translateX(-325px);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+.main-navigation ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+.main-navigation.mn-visible {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.mn-link {
+  display: block;
+  padding: 1em 1.5em;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.4rem;
+}
+.mn-link:focus,
+.mn-link:hover,
+.mn-link:active,
+.mn-link.is-active {
+  color: #ffffff;
+  background: #df0442;
+}
+.mn-link:focus .icon,
+.mn-link:hover .icon,
+.mn-link:active .icon,
+.mn-link.is-active .icon {
+  color: #ffffff;
+}
+.mn-link .icon {
+  float: left;
+  color: #666666;
+  font-size: 2.2rem;
+  line-height: 1;
+}
+.mn-mega-link-figure {
+  margin: 0.5em 0;
+}
+.mn-item-has-submenu .icon {
+  color: #ffffff;
+  float: right;
+}
+.mn-menu-toclose {
+  position: absolute;
+  top: 10px;
+  left: 258px;
+  padding: 0;
+  margin-left: .5em;
+  z-index: 10;
+  background: none;
+  color: #FFF;
+  border: 0;
+}
+.mn-menu-toclose .icon {
+  font-size: 2.9rem;
+  line-height: 1;
+}
+.mn-menu-item.is-open > .mn-link {
+  background: #730222;
+}
+[class*="mn-menu-lvl"] {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 325px;
+  padding-top: 3em;
+}
+.mn-menu-lvl1 {
+  background: #141618;
+}
+.mn-menu-lvl1.submenu-is-open {
+  background: #202326;
+}
+.mn-menu-lvl2 {
+  left: 0;
+  z-index: -1;
+  background: #141618;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  -webkit-transform: translateX(-325px);
+          transform: translateX(-325px);
+}
+.mn-item-lvl-1.is-open .mn-menu-lvl2 {
+  -webkit-transform: translateX(325px);
+          transform: translateX(325px);
+}
+
+/*# sourceMappingURL=maps/visual-navigation.css.map */

@@ -1,0 +1,124 @@
+/*
+
+	== Corporate pagination
+
+*/
+.pagination {
+  list-style: none;
+  padding: 0.5em;
+  margin: 1em 0;
+  text-align: center;
+  color: #888888;
+}
+.pagination a {
+  display: inline-block;
+  padding: 0.25em 0.5em 0;
+  color: #888888;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.pagination a:focus,
+.pagination a:hover {
+  color: #df0442;
+}
+.pagination .icon {
+  display: inline-block;
+  margin: 0 1em;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #a60331;
+}
+.pagin-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.5em;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+.pagin-item.pagin-prev,
+.pagin-item.pagin-next {
+  display: none;
+}
+.pagin-item.is-active a {
+  text-decoration: none;
+}
+.pagin-item.is-active a {
+  color: #df0442;
+  border-color: #df0442;
+}
+/*
+ * Grid with pagination
+ */
+.pagin-grids {
+  width: 67px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pagin-grids.is-inactive span {
+  color: #c7c7c7;
+}
+.pagin-grids .arrows {
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+}
+.pagin-grids > a,
+.pagin-grids > span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 67px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #df0442;
+}
+.pagin-grids .icon {
+  font-size: 4rem;
+  line-height: 1;
+}
+.pagin-grids a:focus,
+.pagin-grids a:hover {
+  background: #f5f5f5;
+}
+.pagin-grids-title {
+  position: relative;
+}
+.pagin-grids-prev {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
+.pagin-grids-prev .pagin-grids-title {
+  top: -0.9em;
+}
+.pagin-grids-prev .arrows {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.pagin-grids-next .pagin-grids-title {
+  top: -0.8em;
+}
+.pagin-grids-next .arrows {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+/*# sourceMappingURL=maps/visual-pagination.css.map */

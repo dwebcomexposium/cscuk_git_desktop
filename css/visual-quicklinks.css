@@ -1,0 +1,118 @@
+/*
+	
+	== Visual
+	== Quicklinks
+	.quicklinks --> .ql-##
+
+*/
+/* 
+ * ==Quicklinks with icon 
+ */
+.quicklinks-icon .ql-item {
+  margin-bottom: 1em;
+}
+.quicklinks-icon .ql-item-link {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.25;
+  background: none;
+  width: 100%;
+  text-align: left;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #777777;
+}
+.quicklinks-icon .ql-item-link .icon,
+.quicklinks-icon .ql-item-link .icon-catal {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  line-height: 1;
+}
+.quicklinks-icon .ql-item-link.after .icon {
+  margin-left: 0.5em;
+  margin-right: -0.25em;
+}
+.quicklinks-icon .ql-item-link .icon {
+  width: 35px;
+  font-size: 3.2rem;
+  margin-right: .25em;
+}
+.quicklinks-icon .ql-item-link:focus,
+.quicklinks-icon .ql-item-link:hover {
+  color: #df0442;
+}
+/*
+ * == Block large version for "Quicklinks icon"
+ */
+.block-page.quicklinks-icon {
+  max-width: 1024px;
+  padding: 3em 1em;
+  margin: 0 auto;
+  background: #f5f5f5;
+}
+.block-page .ql-list {
+  text-align: center;
+}
+.block-page .ql-item {
+  width: 22%;
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+.block-page .ql-item + .ql-item .ql-item-link .icon {
+  border-left: 1px solid #b3b3b3;
+}
+.block-page .ql-item-link {
+  color: #777777;
+  text-align: center;
+}
+.block-page .ql-item-link .icon {
+  width: auto;
+  display: block;
+  margin: 0 auto .5em;
+}
+.block-page .ql-item-link:focus,
+.block-page .ql-item-link:hover {
+  color: #df0442;
+}
+.block-page .ql-item-link:focus .icon,
+.block-page .ql-item-link:hover .icon {
+  color: #df0442;
+}
+/*
+ * == Block small version for "Quicklinks icon"
+ */
+.block-small.quicklinks-icon {
+  padding-top: 3.5em;
+}
+.block-small.quicklinks-icon .block-title {
+  display: none;
+}
+.article-content .block-small.quicklinks-icon ul li:before {
+  display: none;
+}
+/*
+ * ==Quicklinks in footer
+ */
+.quicklinks-footer {
+  width: 22%;
+  margin-top: 0;
+}
+.quicklinks-footer .ql-list {
+  padding-left: 8em;
+}
+.quicklinks-footer .ql-item {
+  margin: .25em 0;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+.quicklinks-footer .ql-item-link:focus,
+.quicklinks-footer .ql-item-link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*# sourceMappingURL=maps/visual-quicklinks.css.map */

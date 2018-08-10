@@ -1,0 +1,233 @@
+/*
+
+  == Visual
+  == Search form for Error page, search result page…
+  .second-search-form --> .ssf-###
+
+*/
+/*
+
+	== Common
+	== Typeahead
+ 	== Auto suggest in search form
+ 	
+ */
+.tt-dropdown-menu {
+  position: absolute;
+  right: auto;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  background: #FFF;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+.tt-hint {
+  color: #aaa;
+}
+.tt-text-intro {
+  display: block;
+  font-size: .9em;
+  text-align: right;
+  font-style: italic;
+}
+.tt-suggestion {
+  color: #777;
+  overflow: hidden;
+}
+.tt-suggestion img {
+  float: left;
+  margin-right: 5px;
+}
+.tt-suggestion .tt-suggest-text {
+  overflow: hidden;
+}
+.typeahead-section-name {
+  display: block;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ddd;
+}
+.tt-cursor {
+  background: #aaa;
+  color: #000;
+}
+/*
+
+	== Visual
+	== Typeahead
+ 	== Auto suggest in search form
+ 	
+ */
+.tt-dropdown-menu {
+  width: 100%;
+  background: #000;
+  color: #FFF;
+  left: auto !important;
+  right: -68px !important;
+}
+.tt-dropdown-menu a {
+  color: #FFF;
+}
+.tt-dropdown-contents {
+  padding: 1em;
+}
+.tt-text-intro {
+  padding: 1em;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: right;
+  background: #df0442;
+  color: #FFF;
+}
+[class*="tt-dataset-"] {
+  padding: 1em;
+  font-size: 1.4rem;
+}
+.typeahead-section-name {
+  display: block;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #404040;
+}
+.tt-suggestion {
+  color: #FFF;
+}
+.tt-suggestion {
+  padding: 0;
+  margin-bottom: 0.5em;
+}
+.tt-suggestion a {
+  display: block;
+  font-size: 1.4rem;
+  color: #FFF;
+}
+.tt-suggestion a::after {
+  content: "\e60b";
+  float: right;
+  font-size: 2.2rem;
+  font-family: 'icon';
+  margin-top: .25em;
+}
+.tt-suggestion a:focus,
+.tt-suggestion a:hover {
+  text-decoration: none;
+  background: #262626;
+}
+.tt-suggest-text {
+  line-height: 4.5rem;
+  padding-left: .25em;
+}
+.tt-suggest-text,
+.tt-suggest-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.tt-suggest-img img {
+  margin-right: 1em;
+  width: 50px;
+  height: 50px;
+}
+.tt-highlight {
+  color: #df0442;
+}
+.site-banner .global-search-form .tt-dropdown-menu {
+  max-height: 1000px;
+  overflow-y: auto;
+}
+@media (max-height: 1100px) {
+  .site-banner .global-search-form .tt-dropdown-menu {
+    max-height: 800px;
+  }
+}
+@media (max-height: 950px) {
+  .site-banner .global-search-form .tt-dropdown-menu {
+    max-height: 600px;
+  }
+}
+@media (max-height: 768px) {
+  .site-banner .global-search-form .tt-dropdown-menu {
+    max-height: 500px;
+  }
+}
+.global-search-form {
+  width: 100%;
+  float: none;
+  margin-top: 0;
+}
+.global-search-form .twitter-typeahead {
+  display: block !important;
+}
+.global-search-form .tt-dropdown-menu {
+  width: 100%;
+  left: auto;
+  right: 0 !important;
+}
+.gsf-trigger {
+  display: none;
+}
+.gsf-input-line {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.gsf-submit-line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+}
+.gsf-fields {
+  position: relative;
+}
+.gsf-input {
+  display: block;
+  padding: 0.65em 3em 0.65em 1em;
+  color: #777777;
+  font-size: 2.2rem;
+  border: 2px solid #a1a1a1;
+  background: #f5f5f5;
+}
+.gsf-input::-webkit-input-placeholder {
+  color: #777777;
+  font-size: 2.2rem;
+}
+.gsf-input::-moz-placeholder {
+  color: #777777;
+  font-size: 2.2rem;
+}
+.gsf-input:-ms-input-placeholder {
+  color: #777777;
+  font-size: 2.2rem;
+}
+.gsf-input:focus {
+  outline: 0;
+  border-color: #666666;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+}
+.gsf-submit-btn {
+  padding: .25em 0 0;
+  width: auto;
+  background: none;
+  color: #777777;
+  border: 0;
+}
+.gsf-submit-btn .icon {
+  font-size: 3.5rem;
+}
+.gsf-submit-btn:focus {
+  background: white;
+}
+.gsf-submit-text {
+  position: absolute !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+}
+
+/*# sourceMappingURL=maps/visual-searchform.css.map */

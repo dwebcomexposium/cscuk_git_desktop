@@ -1,0 +1,98 @@
+/*
+	
+	== Visual
+	== Article focus
+	.article-focus --> .af-##
+
+*/
+.af-title {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #455a64;
+}
+/* 
+ * Default style 
+ */
+.article-focus {
+  position: relative;
+  text-align: center;
+  background: #000;
+  min-height: 380px;
+  overflow: hidden;
+  /* button */
+}
+.article-focus + .article-focus {
+  margin-top: 2em;
+}
+.article-focus .inside {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -512px;
+  width: 1024px;
+  text-align: left;
+}
+.article-focus .af-illust {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.article-focus .af-content {
+  position: absolute;
+  bottom: 0;
+  width: 420px;
+  padding: 3em 3em 1em;
+  font-size: 1.4rem;
+  background: #FFF;
+}
+.article-focus .btn-primary {
+  margin-top: 1.5em;
+}
+/* 
+ * Alternative version 
+ */
+.article-focus.invert .af-content {
+  right: 0;
+  padding-bottom: 3em;
+  text-align: left;
+  background: none;
+  color: #FFF;
+}
+.article-focus.invert .af-title {
+  color: #FFF;
+}
+/* 
+ * Alternative version 
+ */
+.article-focus.alt-version .inside {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: none;
+  width: auto;
+  margin-left: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+.article-focus.alt-version .af-content {
+  position: static;
+  width: auto;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 8em 2em 2em;
+  color: #FFF;
+  background: none;
+}
+.article-focus.alt-version .af-title {
+  margin-bottom: 1.5em;
+  color: #FFF;
+}
+
+/*# sourceMappingURL=maps/visual-article-focus.css.map */
