@@ -492,3 +492,11 @@ z-index:-1;
 .cl-item{
 width:240px;
 }
+
+
+/*** HOME SLIDER ***/
+
+.news-home article.gla-item{
+ background-color: #fff;
+ padding-top: 16px;
+}
