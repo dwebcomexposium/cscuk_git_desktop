@@ -500,7 +500,7 @@ width:240px;
  background-color: #fff;
  margin-top: 16px;
 }
-.list-grids-with-pagin .grid-la-list .gla-item a h2.gla-item-title:before {
+.news-home .list-grids-with-pagin .grid-la-list .gla-item a h2.gla-item-title:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -510,7 +510,7 @@ width:240px;
     background-color: red;
 }
 
-.list-grids-with-pagin .grid-la-list .gla-item:first-child a h2.gla-item-title:before {
+.news-home .list-grids-with-pagin .grid-la-list .gla-item:first-child a h2.gla-item-title:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -520,7 +520,7 @@ width:240px;
     background-color: #d859e4;
 }
 
-.list-grids-with-pagin .grid-la-list .gla-item:nth-child(2) a h2.gla-item-title:before {
+.news-home .list-grids-with-pagin .grid-la-list .gla-item:nth-child(2) a h2.gla-item-title:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -530,7 +530,7 @@ width:240px;
     background-color: #f6c54f;
 }
 
-.list-grids-with-pagin .grid-la-list .gla-item:nth-child(3) a h2.gla-item-title:before {
+.news-home .list-grids-with-pagin .grid-la-list .gla-item:nth-child(3) a h2.gla-item-title:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -540,7 +540,7 @@ width:240px;
     background-color: #56c1e5;
 }
 
-.list-grids-with-pagin .grid-la-list .gla-item a:before {
+.news-home .list-grids-with-pagin .grid-la-list .gla-item a:before {
     width: 100%;
     content: ' ';
         height: 185px;
@@ -550,7 +550,7 @@ width:240px;
     
 }
 
-.list-grids-with-pagin .grid-la-list .gla-item a h2.gla-item-title {
+.news-home .list-grids-with-pagin .grid-la-list .gla-item a h2.gla-item-title {
     text-indent: 32px;
 }
 
