@@ -560,11 +560,10 @@ width:240px;
 
 .news-home a.link-view-all {
     position: absolute;
-    margin-top: 543px;
+    margin-top: 574px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    top: 50%;
     left: 50%;
     background-color: rgba( 6,69,249,.9);
     transform: translate(-50%, -50%);
@@ -582,4 +581,7 @@ width:240px;
     box-shadow: inset 205px 0 0 0 #f6c54f;
     color: #fff;
     border: 0;
+}
+.inside.home-focus-flux {
+    margin-top: 100px;
 }
