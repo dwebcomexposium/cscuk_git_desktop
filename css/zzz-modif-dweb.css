@@ -553,3 +553,33 @@ width:240px;
 .list-grids-with-pagin .grid-la-list .gla-item a h2.gla-item-title {
     text-indent: 32px;
 }
+
+.news-home .pagin-grids.pagin-grids-prev.is-inactive, .pagin-grids.pagin-grids-next {
+    display: none;
+}
+
+.news-home a.link-view-all {
+    position: absolute;
+    margin-top: 543px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    background-color: rgba( 6,69,249,.9);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    transition: all ease .8s;
+    opacity: 1;
+    border: 0;
+    border-radius: 0;
+}
+
+.news-home a.link-view-all:hover {
+    box-shadow: none;
+    box-shadow: inset 205px 0 0 0 #f6c54f;
+    color: #fff;
+    border: 0;
+}
