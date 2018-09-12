@@ -585,3 +585,9 @@ width:240px;
 .inside.home-focus-flux {
     margin-top: 100px;
 }
+.link-view-all .icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.8rem;
+    margin: -0.35em -0.25em -0.35em 0.5em;
+}
