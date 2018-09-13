@@ -560,7 +560,7 @@ width:240px;
 
 .news-home a.link-view-all {
     position: absolute;
-    margin-top: 574px;
+    margin-top: 540px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -583,7 +583,7 @@ width:240px;
     border: 0;
 }
 .inside.home-focus-flux {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .link-view-all .icon {
     display: inline-block;
