@@ -583,7 +583,10 @@ width:240px;
     border: 0;
 }
 .inside.home-focus-flux {
-    margin-top: 120px;
+    margin-top: 0px;
+}
+.front .partner {
+    margin: 8em 0 0em 0;
 }
 .link-view-all .icon {
     display: inline-block;
