@@ -559,14 +559,13 @@ width:240px;
 }
 
 .news-home a.link-view-all {
-    position: absolute;
-    margin-top: 540px;
+    margin-top: 7em !important;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    left: 50%;
+    max-width: 220px;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
     background-color: rgba( 6,69,249,.9);
-    transform: translate(-50%, -50%);
     color: #fff;
     -webkit-transition: all ease .8s;
     -moz-transition: all ease .8s;
