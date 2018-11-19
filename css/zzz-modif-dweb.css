@@ -604,3 +604,7 @@ body.article_list .list-articles article.gla-item {
 .article_list .list-grids-with-pagin .grid-la-list{
 justify-content: flex-start;
 }
+
+.list-articles .news-home .list-grids-with-pagin .grid-la-list{
+margin-right : 0em !important;
+}
