@@ -608,3 +608,92 @@ justify-content: flex-start;
 .list-articles .news-home .list-grids-with-pagin .grid-la-list{
 margin-right : 0em !important;
 }
+
+/**** MODIFICATION DECORATION ****/
+.block.block-page.list-articles.block--secondary::before {
+    position: absolute;
+    content: " ";
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 20px #F7C452 solid;
+    left: -9em;
+    margin-top: -8em;
+}
+
+.block.block-page.list-articles.news-home::before {
+    position: absolute;
+    content: " ";
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    border: 11px #DB57EA solid;
+    left: -4em;
+    margin-top: -2em;
+}
+
+.block.block-page.list-articles.news-home::after {
+    position: absolute;
+    content: " ";
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border: 11px #f6c54f solid;
+    right: -4em;
+    margin-top: -50em;
+}
+
+.inside.home-focus-flux::after {
+    position: absolute;
+    content: " ";
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    border: 7px #56c1e5 solid;
+    left: -2.5em;
+    margin-top: 32em;
+}
+
+.zone-hero.txtcenter::after {
+    position: absolute;
+    content: " ";
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    border: 20px #F7C452 solid;
+    right: -7em;
+    top: 9em;
+}
+
+.zone-hero.txtcenter::before {
+    position: absolute;
+    content: " ";
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border: 8px #d859e4 solid;
+    left: -3em;
+    top: 31em;
+}
+
+body.body-visual.front {
+    overflow-x: hidden;
+}
+
+.icon-menu:hover:before {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.icon-menu:before {
+    content: "\e608";
+    content: url(/theme/cscuk2_git_desktop/img/icon-menu-burger-blanc.svg)!important;
+    background-color: #001e60;
+    padding: 10px 10px 7px 10px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.sb-menu-btn .sb-menu-trigger{
+outline: 0;
+}
