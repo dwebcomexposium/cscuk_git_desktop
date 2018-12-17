@@ -498,6 +498,7 @@ width:240px;
 
 .news-home{
 position: relative;
+	overflow: hidden;
 }
 
 .news-home article.gla-item{
@@ -660,6 +661,7 @@ margin-right : 0em !important;
 }
 .zone-hero{
 	position: relative;
+	overflow: hidden;
 }
 .zone-hero.txtcenter::after {
     position: absolute;
@@ -754,7 +756,14 @@ outline: 0;
     background-color: #0645F9;
 }
 
-
+@media screen and (max-width: 1024px) {
+	.block.block-page.list-articles.news-home::after{
+		margin-top: -46em;
+	}
+	.block.block-page.list-articles.news-home::before{
+		margin-top: 34em;
+	}
+}
 /************************/
 /*** Réseaux sociaux ***/
 /***********************/
