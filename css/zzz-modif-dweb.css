@@ -496,6 +496,10 @@ width:240px;
 
 /*** HOME SLIDER ***/
 
+.news-home{
+position: relative;
+}
+
 .news-home article.gla-item{
  background-color: #fff;
  margin-top: 16px;
@@ -653,7 +657,9 @@ margin-right : 0em !important;
     left: -2.5em;
     margin-top: 32em;
 }
-
+.zone-hero{
+	position: relative;
+}
 .zone-hero.txtcenter::after {
     position: absolute;
     content: " ";
