@@ -645,6 +645,7 @@ margin-right : 0em !important;
     border: 11px #f6c54f solid;
     right: -4em;
     margin-top: -50em;
+	overflow: hidden;
 }
 
 .inside.home-focus-flux::after {
@@ -669,6 +670,7 @@ margin-right : 0em !important;
     border: 20px #F7C452 solid;
     right: -7em;
     top: 9em;
+	overflow: hidden;
 }
 
 .zone-hero.txtcenter::before {
