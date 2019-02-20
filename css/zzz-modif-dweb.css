@@ -814,3 +814,28 @@ footer i.icon.icon-youtube:before {
     margin-left: -41px;
     margin-top: -20px;
 }
+
+/*****************************/
+/****** PULICITE HOME ********/
+/*****************************/
+
+.section-publicite-home .shell {
+    max-width: 980px;
+    margin: auto;
+}
+
+.section-publicite-home h6 {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+    font-weight:200;
+}
+
+.section-publicite-home {
+    position: relative;
+    padding: 36px 0 54px;
+    text-align: center;
+}
