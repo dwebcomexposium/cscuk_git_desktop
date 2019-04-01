@@ -839,3 +839,11 @@ footer i.icon.icon-youtube:before {
     padding: 36px 0 54px;
     text-align: center;
 }
+
+/******************/
+/***focus button***/
+/******************/
+
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active {
+    box-shadow: none;
+}
