@@ -846,4 +846,5 @@ footer i.icon.icon-youtube:before {
 
 .btn-primary:focus, .btn-primary:hover, .btn-primary:active {
     box-shadow: none;
+    outline: none;
 }
