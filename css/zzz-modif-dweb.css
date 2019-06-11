@@ -848,3 +848,13 @@ footer i.icon.icon-youtube:before {
     box-shadow: none;
     outline: none;
 }
+
+
+/***************/
+/**** VIDEO ****/
+/***************/
+
+#zone2 .bloc-home-youtube {
+    margin-top: 5em;
+    padding-top: 3em;
+}
