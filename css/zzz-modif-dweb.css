@@ -858,3 +858,9 @@ footer i.icon.icon-youtube:before {
     margin-top: 5em;
     padding-top: 3em;
 }
+
+/********************/
+/**** NAVIGATION ****/
+/********************/
+
+_:-ms-lang(x), .icon-menu { width:20px; }
